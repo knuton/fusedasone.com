@@ -1,0 +1,24 @@
+---
+layout: default
+---
+    <div class="entry single">
+      <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+      <p class="date" title="{{ page.date | date: "%m/%d/%Y" }}">{{ page.date | date: "%b %y" }}</p>
+      <div class="text">
+        {{ content}}
+      </div>
+    </div>
+    {% if page.previous and page.next %}
+    <p>
+      <a href="{{page.previous.url}}" title="Previous" class="previous partner">Previous</a>
+      <a href="{{page.next.url}}" title="Next" class="next partner">Next</a>
+    </p>
+    {% elsif page.previous %}
+    <p>
+      <a href="{{page.previous.url}}" title="Previous" class="previous single">Previous</a>
+    </p>
+    {% elsif page.next %}
+    <p>
+      <a href="{{page.next.url}}" title="Next" class="next single">Next</a>
+    </p>
+    {% endif %}

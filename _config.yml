@@ -1,0 +1,6 @@
+auto: true
+destination: ../htdocs/
+pygments: true
+lsi: false 
+permalink: '/:year/:month/:title.html'
+paginate: 7
