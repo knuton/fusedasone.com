@@ -1,6 +1,9 @@
 auto: true
-destination: ../htdocs/
+destination: _site/
 pygments: true
-lsi: false 
+lsi: false
 permalink: '/:year/:month/:title.html'
 paginate: 7
+
+embedly:
+  api_key: 3361d1ccb62f11e0a0724040d3dc5c07
