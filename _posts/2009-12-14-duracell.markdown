@@ -1,0 +1,8 @@
+---
+title: Duracell in Trondheim
+categories: [de, en, video, music]
+layout: post
+---
+{% video vimeo %}
+http://www.vimeo.com/7508588
+{% endvideo %}
