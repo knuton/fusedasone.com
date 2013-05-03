@@ -163,7 +163,7 @@ figure.image, figure.video {
   background-color: #F5F5F5;
   text-align: center;
 }
-figure.image img, figure.video object, figure.video embed {
+figure.image img, figure.video embed, figure.video iframe {
   max-width: 98%;
   padding: 1%;
   -webkit-box-shadow: #AAA 0px 0px 5px;
