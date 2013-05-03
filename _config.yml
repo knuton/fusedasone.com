@@ -5,7 +5,10 @@ lsi: false
 permalink: '/:year/:month/:title.html'
 paginate: 11
 
-exclude: Rakefile
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
 
 embedly:
   api_key: 3361d1ccb62f11e0a0724040d3dc5c07
