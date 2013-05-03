@@ -1,6 +1,6 @@
 /* Layout */
 body {
-  padding: 0 0 150px 315px;
+  padding: 0 0 0 315px;
   background-color: #fff;
   background-image: url('/images/drinking-straw.png');
   background-repeat: no-repeat;
@@ -12,6 +12,19 @@ body {
 }
 #header {
   padding-bottom: 3em;
+}
+#content {
+  padding-bottom: 150px;
+}
+footer {
+  display: inline;
+  position: relative;
+  top: -15px;
+  left: 155px;
+}
+footer, footer * {
+  font-size: 14px;
+  color: dimGray;
 }
 
 /* General */
@@ -187,6 +200,11 @@ div.entry figure.video object, div.entry figure.video embed {
 /* Single Entry */
 div.entry.single:after, div.entry:last-child:after {
   content: "";
+}
+
+/* Entities */
+.twitter-handle {
+  font-style: italic;
 }
 
 /* Pagination (node hopping) */
