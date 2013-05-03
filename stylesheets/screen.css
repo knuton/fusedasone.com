@@ -159,6 +159,11 @@ div.entry figure img, figure.video object, figure.video embed {
   box-shadow: #AAA 0px 0px 5px;
   background-color: #fff;
 }
+div.entry blockquote {
+  width: 85%;
+  text-align: justify;
+  font-family: Courier;
+}
 
 div.entry .highlight pre, div.entry code {
   font-size: 0.9em;
