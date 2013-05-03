@@ -154,7 +154,7 @@ div.text *:first-child {
   margin-top: 0;
 }
 div.text img {
-  max-width: 100%; 
+  max-width: 100%;
 }
 
 figure.image, figure.video {
@@ -228,7 +228,7 @@ a.previous {
   text-align: left;
 }
 a.previous:before {
-  content: "\25CB\0096\20D4\25CB";
+  content: "\25CB\0006\20D4\25CB";
   color: #171717;
   font-size: 1.3em;
 }
@@ -236,7 +236,7 @@ a.next {
   text-align: right;
 }
 a.next:after {
-  content: "\25CB\0096\20D5\25CB";
+  content: "\25CB\0006\20D5\25CB";
   color: #171717;
   font-size: 1.3em;
 }
