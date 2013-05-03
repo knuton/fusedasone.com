@@ -1,6 +1,7 @@
 auto: true
 destination: _site/
 pygments: true
+markdown: rdiscount
 lsi: false
 permalink: '/:year/:month/:title.html'
 paginate: 11
