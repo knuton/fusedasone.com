@@ -144,23 +144,31 @@ div.text img {
   max-width: 100%; 
 }
 
-div.entry figure {
+figure.image, figure.video {
   margin: 0;
   padding: 1.5em;
   background-color: #F5F5F5;
   text-align: center;
 }
-div.entry figure img, figure.video object, figure.video embed {
+figure.image img, figure.video object, figure.video embed {
   max-width: 98%;
   padding: 1%;
-  border: 0px solid dimGray;
   -webkit-box-shadow: #AAA 0px 0px 5px;
   -moz-box-shadow: #AAA 0px 0px 5px;
   box-shadow: #AAA 0px 0px 5px;
   background-color: #fff;
 }
-div.entry blockquote {
-  width: 85%;
+figure.quotation {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+figure.quotation figcaption {
+  text-align: right;
+  margin: 0 15%;
+}
+figure.quotation blockquote {
+  margin: 0 15%;
   text-align: justify;
   font-family: Courier;
 }
