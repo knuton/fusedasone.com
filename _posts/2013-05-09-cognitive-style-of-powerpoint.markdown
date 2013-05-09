@@ -8,7 +8,7 @@ In 2003 [Edward Tufte][1] published a controversial essay, entitled
 [<cite>The Cognitive Style of PowerPoint</cite>][2] (CSPP), but directed
 more generally towards the practice of basing presentations on
 computer-aided slide-shows with information broken up into bullet-point
-bytes. Not a Luddite, but rather a true nerd about all things
+bites. Not a Luddite, but rather a true nerd about all things
 information design, Tufte took offense with the dumbing down of content
 necessary to fit it into PowerPoint slides, which, by [a popular
 rule][3], may not contain more than seven bullet points.
