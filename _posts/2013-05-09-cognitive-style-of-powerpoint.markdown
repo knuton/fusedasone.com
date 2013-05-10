@@ -65,9 +65,8 @@ could be better.  When presenting in slide-show format, can you
 * provide ways to follow up on leads you give in your talk, so that
   attendants can make a note of them before they are forgotten?
 
-Interestingly, the team at Prezi seems to have [some of the same
-thoughts regarding mobile devices][6], if not explicitly drawing a
-connection to the same points in CSPP.
+<i>PS:</i> Interestingly, the team at Prezi seems to have [some of the same
+thoughts regarding mobile devices][6].
 
 [1]: http://en.wikipedia.org/wiki/Edward_Tufte
 [2]: http://www.edwardtufte.com/tufte/books_pp
