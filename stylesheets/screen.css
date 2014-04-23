@@ -1,30 +1,41 @@
 /* Layout */
 body {
-  padding: 0 0 0 315px;
-  background-color: #fff;
-  background-image: url('/images/drinking-straw.png');
-  background-repeat: no-repeat;
-  background-position: bottom left;
-  background-attachment: scroll;
+  margin: 0;
+  text-align: center;
+  padding: 0;
   font-size: 100.1%;
   font-family: Palatino, Georgia, serif;
   color: #171717;
 }
 #header {
-  padding-bottom: 3em;
+  padding-bottom: 2.33em;
 }
 #content {
-  padding-bottom: 150px;
+  width: 50%;
+  max-width: 42em;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 3em;
 }
 footer {
-  display: inline;
-  position: relative;
-  top: -15px;
-  left: 155px;
+  display: block;
+  height: 200px;
+  padding: 1em;
+  background-color: rgb(81,124,203);
+  background-image: url(/images/fruitsets.png);
+  background-repeat: no-repeat;
+  background-position: center 2.33em;
+  background-size: 66%;
+  text-align: center;
+  box-shadow: inset 0 1px 1px #1A4084;
 }
-footer, footer * {
+footer, footer *, footer a {
   font-size: 14px;
-  color: dimGray;
+  color: #112955;
+}
+footer a:hover {
+  color: white;
+  background-image: none;
 }
 
 /* General */
@@ -87,7 +98,7 @@ a:hover {
 	-moz-animation-direction: normal;
 }
 #header h1 {
-  margin: 0;
+  margin: 0 0 0.33em;
   padding: 0;
   font-size: 5em;
   font-weight: normal;
@@ -116,8 +127,6 @@ a:hover {
 /* Entries */
 div.entry {
   margin: 2em 0 0 0;
-  width: 75%;
-  max-width: 42em;
 }
 div.entry:after {
   content: "\2383";
@@ -216,10 +225,10 @@ a.previous, a.next {
   background: none;
 }
 a.partner {
-  width: 21em;
+  width: 49%;
 }
 a.single {
-  width: 42em;
+  width: 100%;
 }
 a.previous:hover:before, a.next:hover:after {
   color: #696969;
