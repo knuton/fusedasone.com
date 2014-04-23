@@ -1,0 +1,251 @@
+/* Layout */
+body {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  font-size: 100.1%;
+  font-family: Palatino, Georgia, serif;
+  color: #171717;
+}
+#header {
+  padding-bottom: 2.33em;
+}
+#content {
+  width: 50%;
+  max-width: 42em;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 3em;
+}
+footer {
+  display: block;
+  height: 200px;
+  padding: 1em;
+  background-color: rgb(81,124,203);
+  background-image: url(/images/fruitsets.png);
+  background-repeat: no-repeat;
+  background-position: center 2.33em;
+  background-size: 66%;
+  text-align: center;
+  box-shadow: inset 0 1px 1px #1A4084;
+}
+footer, footer *, footer a {
+  font-size: 14px;
+  color: #112955;
+}
+footer a:hover {
+  color: white;
+  background-image: none;
+}
+
+/* General */
+a {
+  text-decoration: underline;
+  color: #171717;
+}
+a:hover {
+  text-decoration: none;
+  background-image: url('/images/orthography.png');
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+/* Header */
+@-webkit-keyframes cycle {
+  0% {
+    color: #D59190;
+  }
+  25% {
+    color: #8881C0;
+  }
+  50% {
+    color: #87C081;
+  }
+  75% {
+    color: #D5C890;
+  }
+  100% {
+    color: #D59190;
+  }
+}
+@-moz-keyframes cycle {
+  0% {
+    color: #D59190;
+  }
+  25% {
+    color: #8881C0;
+  }
+  50% {
+    color: #87C081;
+  }
+  75% {
+    color: #D5C890;
+  }
+  100% {
+    color: #D59190;
+  }
+}
+#header h1 span {
+  -webkit-animation-name: cycle;
+  -moz-animation-name: cycle;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+	-webkit-animation-duration: 6.4s;
+	-moz-animation-duration: 6.4s;
+	-webkit-animation-direction: normal;
+	-moz-animation-direction: normal;
+}
+#header h1 {
+  margin: 0 0 0.33em;
+  padding: 0;
+  font-size: 5em;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: -0.075em;
+}
+#header h1 a {
+  text-decoration: none;
+  background: none;
+}
+#header q {
+  font-size: 1em;
+  font-style: italic;
+}
+#header cite, div.entry p.date {
+  font-size: 0.75em;
+  color: dimgray;
+}
+#header cite:before, div.entry p.date:before {
+  content: "(";
+}
+#header cite:after, div.entry p.date:after {
+  content: ")";
+}
+
+/* Entries */
+div.entry {
+  margin: 2em 0 0 0;
+}
+div.entry:after {
+  content: "\2383";
+  color: #696969;
+  margin-left: 50%;
+}
+div.entry h3, div.entry p.date {
+  display: inline-block;
+}
+div.entry h3 {
+  margin: 0 0 0.5em 0;
+  position: relative;
+  font-size: 1.25em;
+}
+div.entry h3 a:hover:before {
+  content: "\2014";
+  position: absolute;
+  left: -1.5em;
+  font-weight: normal;
+  color: #aaa;
+}
+
+div.entry h3 a {
+  background: none;
+  vertical-align: bottom;
+  text-decoration: none;
+}
+
+/* Entry content */
+div.text {
+  line-height: 150%;
+}
+div.text *:first-child {
+  margin-top: 0;
+}
+div.text img {
+  max-width: 100%;
+}
+
+figure.image, figure.video {
+  margin: 0;
+  padding: 1.5em;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+figure.image img, figure.video embed, figure.video iframe {
+  max-width: 98%;
+  padding: 1%;
+  -webkit-box-shadow: #AAA 0px 0px 5px;
+  -moz-box-shadow: #AAA 0px 0px 5px;
+  box-shadow: #AAA 0px 0px 5px;
+  background-color: #fff;
+}
+figure.quotation {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+figure.quotation figcaption {
+  text-align: right;
+  margin: 0 15%;
+}
+figure.quotation blockquote {
+  margin: 0 15%;
+  text-align: justify;
+  font-family: Courier;
+}
+
+div.entry .highlight pre, div.entry code {
+  font-size: 0.9em;
+  font-family: Consolas, Monaco, monospace;
+}
+
+/* Video content */
+div.entry figure.video object, div.entry figure.video embed {
+  width: 98%;
+  margin: 0;
+}
+
+/* Single Entry */
+div.entry.single:after, div.entry:last-child:after {
+  content: "";
+}
+
+/* Entities */
+.twitter-handle {
+  font-style: italic;
+}
+
+/* Pagination (node hopping) */
+a.previous, a.next {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background: none;
+}
+a.partner {
+  width: 49%;
+}
+a.single {
+  width: 100%;
+}
+a.previous:hover:before, a.next:hover:after {
+  color: #696969;
+}
+a.previous {
+  text-align: left;
+}
+a.previous:before {
+  content: "\25CB\0006\20D4\25CB";
+  color: #171717;
+  font-size: 1.3em;
+}
+a.next {
+  text-align: right;
+}
+a.next:after {
+  content: "\25CB\0006\20D5\25CB";
+  color: #171717;
+  font-size: 1.3em;
+}
